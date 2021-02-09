@@ -4,8 +4,17 @@ It is very simplistic and is meant as a guideline for implementing a Machine Lea
 I put particular emphasis on making this tutorial as short as possible.
 
 ## To run:
+### Locally
+I recommend using docker below, but also works like this:
+`pip install -r requirements.txt`
+`cd TO/PATH`
+`uvicorn main:app --reload`
+
+### Using Docker
 cd to the folder: `cd PATH/TO/MlApiTutorial`
 run docker: `docker-compose up --build`
+
+### Find Solution at
 recommended: go in browser to http://localhost/docs (Assuming your docker hosts there else check `docker ps` it's on port 80)
 you can test the API directly with GUI http://localhost/docs
 or sent to http://localhost/will_survive
@@ -30,7 +39,6 @@ In practice running them in Travis, Circelci before pulling from GitHub would be
 
 ## Deploy to a cloud
 Check docker related deployment possibilities of your favorite cloud provider
-
 
 ## Data From
 Kaggle: https://www.kaggle.com/c/titanic-dataset/data
