@@ -30,3 +30,7 @@ In practice running them in Travis, Circelci before pulling from GitHub would be
 
 ## Deploy to a cloud
 Check docker related deployment possibilities of your favorite cloud provider
+
+
+## Data From
+Kaggle: https://www.kaggle.com/c/titanic-dataset/data
